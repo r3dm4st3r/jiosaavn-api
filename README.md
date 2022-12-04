@@ -24,9 +24,9 @@ You can quickly set up the application and customize it as per your need.
 :robot_face: Clone the repo
 
   ```sh
-  git clone https://github.com/r3dm4st3r/saavnpro
+  git clone https://github.com/r3dm4st3r/saavnpro-api
 
-  cd saavnpro
+  cd saavnpro-api
   
   composer install
   ```
