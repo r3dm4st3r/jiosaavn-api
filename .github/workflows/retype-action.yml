@@ -3,11 +3,11 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   publish:
-    name: Publish to main branch
+    name: Publish to master branch
 
     runs-on: ubuntu-latest
 

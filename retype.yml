@@ -1,5 +1,5 @@
-input: .
-output: ./docs
+input: ./
+output: ./
 url: https://r3dm4st3r.github.io/saavnpro/
 branding:
   title: SaavnPro
