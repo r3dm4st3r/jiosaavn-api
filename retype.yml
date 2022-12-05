@@ -1,15 +1,15 @@
 input: ./
 output: ./
-url: https://r3dm4st3r.github.io/saavnpro/
+url: https://docs.saavnpro.ga
 branding:
-  title: SaavnPro
+  title: JioSaavn API
   label: Docs
 links:
   - text: Demo
-    link: https://r3dm4st3r.github.io/saavnpro/
+    link: https://r3dm4st3r.github.io/jiosaavn-api/
     target: blank
   - text: Github
-    link: https://github.com/r3dm4st3r/saavnpro
+    link: https://github.com/r3dm4st3r/jiosaavn-api/
     target: blank
   - text: Author
     link: https://prafullaranjan.com
