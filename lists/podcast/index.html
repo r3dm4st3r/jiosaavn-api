@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.723581732937">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.723582645080">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Charts</title>
-    <meta name="title" content="Charts">
+    <title>Podcast</title>
+    <meta name="title" content="Podcast">
     <meta name="description" content="HTTP" />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.saavnpro.ga/chart/" />
+    <link rel="canonical" href="https://docs.saavnpro.ga/lists/podcast/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.saavnpro.ga/chart/">
-    <meta property="og:title" content="Charts">
+    <meta property="og:url" content="https://docs.saavnpro.ga/lists/podcast/">
+    <meta property="og:title" content="Podcast">
     <meta property="og:description" content="HTTP">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.saavnpro.ga/chart/">
-    <meta property="twitter:title" content="Charts">
+    <meta property="twitter:url" content="https://docs.saavnpro.ga/lists/podcast/">
+    <meta property="twitter:title" content="Podcast">
     <meta property="twitter:description" content="HTTP">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.723581732937" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.723582645080" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.723581732937" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.723581732937" data-turbo-eval="false" defer></script>
-    <script id="prism-js" type="text/javascript" src="../resources/js/prism.js?v=2.4.0.723581732937" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.723582645080" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.723582645080" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=2.4.0.723582645080" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -50,7 +50,7 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../" class="flex items-center leading-snug text-2xl">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
                             <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">JioSaavn</span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Docs</span>
                     </div>
@@ -179,10 +179,10 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="charts" class="break-words">
+<doc-anchor-target id="podcast" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#charts">#</doc-anchor-trigger>
-        <span>Charts</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#podcast">#</doc-anchor-trigger>
+        <span>Podcast</span>
     </h1>
 </doc-anchor-target>
 <doc-tabs>
@@ -192,11 +192,11 @@
     <span>POST</span>
 </span></p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">https://saavnpro.ga/api/chart</code></pre>
+<pre class="language-none"><code v-pre class="language-none">https://saavnpro.ga/api/podcast</code></pre>
 </doc-codeblock></div>
 <p>CURL</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-bash"><code v-pre class="language-bash">curl -X POST 'https://saavnpro.ga/api/chart' \
+<pre class="language-bash"><code v-pre class="language-bash">curl -X POST 'https://saavnpro.ga/api/podcast' \
 -H 'content-type: application/json'</code></pre>
 </doc-codeblock></div>
 </doc-tab>
@@ -206,134 +206,224 @@
 <pre class="language-json"><code v-pre class="language-json">{
     &quot;data&quot;: [
         {
-            &quot;id&quot;: &quot;I3kvhipIy73uCJW60TJk1Q__&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Trending Today&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_TrendingToday_149406_20220319164713.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_TrendingToday_149406_20220319164713.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_TrendingToday_149406_20220319164713.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_TrendingToday_149406_20220319164713.jpg&quot;
+            &quot;id&quot;: &quot;PjReFP-Sguk_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Talking Music&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Talking-Music-20220608071125.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Talking-Music-20220608071137-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;3&quot;,
+            &quot;release_date&quot;: &quot;2022-06-08&quot;
         },
         {
-            &quot;id&quot;: &quot;1HiqW,xnqZTuCJW60TJk1Q__&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Hindi Chartbusters&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HindiChartbusters_158236_20220311194231.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HindiChartbusters_158236_20220311194231.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HindiChartbusters_158236_20220311194231.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HindiChartbusters_158236_20220311194231.jpg&quot;
+            &quot;id&quot;: &quot;VypzBimFtiI_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Such a Drag&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Such-a-Drag-20220203145825.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Such-a-Drag-20220203145837-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-04-12&quot;
         },
         {
-            &quot;id&quot;: &quot;m9Qkal5S733ufxkxMEIbIw__&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Romantic Top 40&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_RomanticTop40_167985_20220311173413.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_RomanticTop40_167985_20220311173413.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_RomanticTop40_167985_20220311173413.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_RomanticTop40_167985_20220311173413.jpg&quot;
+            &quot;id&quot;: &quot;BtjXBaSPVe0_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Suzhal - The Vortex&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Suzhal-The-Vortex-20220618175822.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Suzhal-The-Vortex-20220617174341-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-06-17&quot;
         },
         {
-            &quot;id&quot;: &quot;tsJahdem34A_&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Hindi 00s&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi00s_122250_20190906160607.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi00s_122250_20190906160607.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi00s_122250_20190906160607.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi00s_122250_20190906160607.jpg&quot;
+            &quot;id&quot;: &quot;hIroOx2XjrU_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Moneywise&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Moneywise-20211103124635-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Moneywise-20211103124635-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-11-21&quot;
         },
         {
-            &quot;id&quot;: &quot;T64MUCqdndw_&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Hindi 90s&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi90s_142072_20190906160631.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi90s_142072_20190906160631.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi90s_142072_20190906160631.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi90s_142072_20190906160631.jpg&quot;
+            &quot;id&quot;: &quot;zkv096yLB7I_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Kahaani Express with Neelesh Misra&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Kahaani-Express-with-Neelesh-Misra-20201026205812.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Kahaani-Express-with-Neelesh-Misra-20201026205850-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2019-07-30&quot;
         },
         {
-            &quot;id&quot;: &quot;fE9YxTvTDjU_&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Hindi 80s&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi80s_108023_20220105060041.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi80s_108023_20220105060041.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi80s_108023_20220105060041.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi80s_108023_20220105060041.jpg&quot;
+            &quot;id&quot;: &quot;KNFxHyfBS7E_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Ek Geet Sau Afsane&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Ek-Geet-Sau-Afsane-20210324034923-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Ek-Geet-Sau-Afsane-20210324034923-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-11-29&quot;
         },
         {
-            &quot;id&quot;: &quot;VSMrnr-njCk_&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Hindi 70s&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi70s_119337_20220105060121.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi70s_119337_20220105060121.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi70s_119337_20220105060121.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi70s_119337_20220105060121.jpg&quot;
+            &quot;id&quot;: &quot;KoIx6pKw4lo_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;The American Serial Killer Guidebook&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/The-American-Serial-Killer-Guidebook-20220530003403-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/The-American-Serial-Killer-Guidebook-20220530003403-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-05-22&quot;
         },
         {
-            &quot;id&quot;: &quot;TOL5Rewc8Mk_&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Hindi 60s&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi60s_124027_20220105060140.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi60s_124027_20220105060140.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi60s_124027_20220105060140.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/logo/charts_Hindi60s_124027_20220105060140.jpg&quot;
+            &quot;id&quot;: &quot;G6ShbRsqqmc_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Bhai Ke Raapchik Reviews&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Bhai-Ke-Raapchik-Reviews-20221104130639.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Bhai-Ke-Raapchik-Reviews-20221104130649-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-11-04&quot;
         },
         {
-            &quot;id&quot;: &quot;dYn-,-QcKzA_&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Hindi Retro&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HindiRetro_157266_20220311175017.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HindiRetro_157266_20220311175017.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HindiRetro_157266_20220311175017.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HindiRetro_157266_20220311175017.jpg&quot;
+            &quot;id&quot;: &quot;8qUZzpMyu6c_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Kannagi Kaviyam Tamil Podcast&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Kannagi-Kaviyam-Tamil-Podcast-20221117211708-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Kannagi-Kaviyam-Tamil-Podcast-20221117211708-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-11-28&quot;
         },
         {
-            &quot;id&quot;: &quot;I3kvhipIy73femJ68FuXsA__&quot;,
-            &quot;type&quot;: &quot;playlist&quot;,
-            &quot;language&quot;: &quot;hindi&quot;,
-            &quot;title&quot;: &quot;Hyderabad Hot 50&quot;,
-            &quot;thumb&quot;: {
-                &quot;xs&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HyderabadHot50_139472_20220311200105.jpg&quot;,
-                &quot;sm&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HyderabadHot50_139472_20220311200105.jpg&quot;,
-                &quot;md&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HyderabadHot50_139472_20220311200105.jpg&quot;,
-                &quot;lg&quot;: &quot;https://sklktecdnems05.cdnsrv.jio.com/c.saavncdn.com/editorial/charts_HyderabadHot50_139472_20220311200105.jpg&quot;
+            &quot;id&quot;: &quot;L91z-RKTxAU_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;NL Charcha&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/NL-Charcha-20201223095925-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/NL-Charcha-20201223095925-500x500.jpg&quot;
             },
-            &quot;artists&quot;: []
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-12-03&quot;
+        },
+        {
+            &quot;id&quot;: &quot;HQdlAIDWXJo_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Holistic Lifestyle With Neha Ranglani&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Holistic-Lifestyle-With-Neha-Ranglani-20201223043832.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Holistic-Lifestyle-With-Neha-Ranglani-20201223043842-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2021-12-27&quot;
+        },
+        {
+            &quot;id&quot;: &quot;SSF-wn2eLXI_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Indian Murder Mystery&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Indian-Murder-Mystery-20220704123807-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Indian-Murder-Mystery-20220704123807-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2020-11-19&quot;
+        },
+        {
+            &quot;id&quot;: &quot;fhPF5RhlK3k_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;In Focus by The Hindu&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/In-Focus-by-The-Hindu-20220324090554-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/In-Focus-by-The-Hindu-20220324090554-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-12-03&quot;
+        },
+        {
+            &quot;id&quot;: &quot;5H8KE2tcx98_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;LGBT Kyun?&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/LGBT-Kyun-20210602112725-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/LGBT-Kyun-20210602112725-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2021-07-29&quot;
+        },
+        {
+            &quot;id&quot;: &quot;d87cdhM-eIg_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Raising Parents&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Raising-Parents-20220208154322.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Raising-Parents-20210722042637-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;2&quot;,
+            &quot;release_date&quot;: &quot;2022-03-23&quot;
+        },
+        {
+            &quot;id&quot;: &quot;ZBludb0NoRM_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;दिनभर: पूरा दिन,पूरी ख़बर (Dinbhar)&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/-20220311125422-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/-20220311125422-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-12-02&quot;
+        },
+        {
+            &quot;id&quot;: &quot;,eI,wxvKSqU_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Kya Woh Sach Tha&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Kya-Woh-Sach-Tha-20220629105017-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Kya-Woh-Sach-Tha-20220629105017-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2019-12-07&quot;
+        },
+        {
+            &quot;id&quot;: &quot;1qlp1umuyT8_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;The Things I Thought About When My Body Was Trying to Kill Me&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/The-Things-I-Thought-About-When-My-Body-Was-Trying-to-Kill-Me-20220601101723-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/The-Things-I-Thought-About-When-My-Body-Was-Trying-to-Kill-Me-20220601101723-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-07-21&quot;
+        },
+        {
+            &quot;id&quot;: &quot;nrHzjX6ueJo_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;Talking Womb&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/Talking-Womb-20220516141616-BG.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/Talking-Womb-20220516141616-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;1&quot;,
+            &quot;release_date&quot;: &quot;2022-12-03&quot;
+        },
+        {
+            &quot;id&quot;: &quot;LT7jKx2kHgw_&quot;,
+            &quot;type&quot;: &quot;show&quot;,
+            &quot;title&quot;: &quot;#NoFilterNeha&quot;,
+            &quot;image&quot;: {
+                &quot;cover&quot;: &quot;https://c.sop.saavncdn.com/NoFilterNeha-20210709111754.jpg&quot;,
+                &quot;thumb&quot;: &quot;https://c.sop.saavncdn.com/NoFilterNeha-20210709111816-500x500.jpg&quot;
+            },
+            &quot;season_number&quot;: &quot;5&quot;,
+            &quot;release_date&quot;: &quot;2020-11-17&quot;
         }
     ],
     &quot;message&quot;: &quot;success&quot;,
@@ -350,20 +440,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../artist/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../lists/playlist/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Artist</span>
+                                                <span class="block mt-1">Playlist</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../album/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../lists/radio/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Album</span>
+                                                <span class="block mt-1">Radio</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -407,6 +497,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Charts", level: 1, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Podcast", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
