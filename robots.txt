@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://r3dm4st3r.github.io/saavnpro/sitemap.xml.gz
+Sitemap: https://docs.saavnpro.ga/sitemap.xml.gz
