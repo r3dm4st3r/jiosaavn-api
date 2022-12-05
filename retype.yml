@@ -1,8 +1,8 @@
 input: ./
-output: ./
+output: ./docs
 url: https://docs.saavnpro.ga
 branding:
-  title: JioSaavn API
+  title: JioSaavn
   label: Docs
 links:
   - text: Demo
