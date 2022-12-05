@@ -1,6 +1,6 @@
 ---
 order: 100
-icon: code
+icon: git-branch
 ---
 
 # Getting started
