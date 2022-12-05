@@ -4,6 +4,10 @@ url: https://docs.saavnpro.ga
 branding:
   title: JioSaavn
   label: Docs
+  colors:
+    label:
+      text: "#fff"
+      background: '#ff0683'
 links:
   - text: Demo
     link: https://r3dm4st3r.github.io/jiosaavn-api/
@@ -14,5 +18,13 @@ links:
   - text: Author
     link: https://prafullaranjan.com
     target: blank
+search:
+  hotkeys:
+    - "s"
+  maxResults: 20
+  minChars: 3
+  mode: full
+  noResultsFoundMsg: "Nothing found, try with different keywords"
+  placeholder: Type "s" search..
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."

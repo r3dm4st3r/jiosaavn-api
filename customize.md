@@ -3,7 +3,7 @@ order: 100
 icon: code
 ---
 
-# Customize
+# Getting started
 You can quickly set up the application and customize it as per your need.
 
 ### Prerequisites

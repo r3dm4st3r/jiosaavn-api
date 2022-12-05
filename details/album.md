@@ -134,6 +134,6 @@ curl -X POST 'https://saavnpro.ga/api/album/KZnCWGdveCY_' \
 ```
 +++
 
-| Parameter                         | Description | Required                              |
-|-----------------------------------|-------------|---------------------------------------|
-| [!badge variant="dark" text="id"] | ID          | [!badge variant="danger" text="True"] |
+| Parameter                           | Description                     | Required                              |
+|-------------------------------------|---------------------------------|---------------------------------------|
+| [!badge variant="dark" text="id"]   | Send POST request with album ID | [!badge variant="danger" text="True"] |
