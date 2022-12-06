@@ -24,9 +24,9 @@ You can quickly set up the application and customize it as per your need.
 :robot_face: Clone the repo
 
   ```sh
-  git clone https://github.com/r3dm4st3r/saavnpro-api
+  git clone https://github.com/r3dm4st3r/jiosaavn-api
 
-  cd saavnpro-api
+  cd jiosaavn-api
   
   composer install
   ```
@@ -46,4 +46,4 @@ You can view or download the existing postman collection [here](https://r3dm4st3
 | Live   | ``` https://saavnpro.ga/api ```   |
 | Local  | ``` http://127.0.0.1:8000/api ``` |
 
-### :octocat: For usage, see [Documentation](https://r3dm4st3r.github.io/saavnpro/)
+### :octocat: For usage, see [Documentation](https://docs.saavnpro.ga)
