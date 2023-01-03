@@ -4,7 +4,6 @@
 
 ## :sparkles: Features
 
-- :rocket: Extremely faster
 - :notes: Detailed API responses
 - :sunrise: Preview / download High Quality thumbnails
 - :mag_right: Search via song, album, playlists
@@ -47,3 +46,7 @@ You can view or download the existing postman collection [here](https://r3dm4st3
 | Local  | ``` http://127.0.0.1:8000/api ``` |
 
 ### :octocat: For usage, see [Documentation](https://docs.saavnpro.ga)
+
+### Made using this API
+
+![image](https://user-images.githubusercontent.com/101512784/210442081-7e21bf10-1843-49cd-ab5a-36be65878fa0.png)
